@@ -38,6 +38,13 @@ type Config struct {
 	Pinning      Pinning
 
 	Internal Internal // experimental/unstable options
+
+	Source          string
+	ReportTime      int
+	PullNewFileTime int
+	Public          bool
+	Mining          bool
+	BackupNum       int
 }
 
 const (
