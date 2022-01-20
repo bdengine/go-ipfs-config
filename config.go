@@ -36,6 +36,13 @@ type Config struct {
 	Experimental Experiments
 	Plugins      Plugins
 	Pinning      Pinning
+
+	Source          string
+	ReportTime      int
+	PullNewFileTime int
+	Public          bool
+	Mining          bool
+	BackupNum       int
 }
 
 const (
